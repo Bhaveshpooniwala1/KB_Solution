@@ -1,66 +1,27 @@
-# KB_Solution
+# KBSolutions
 
-Welcome to **KB_Solution** – a portfolio and website-making platform created as the final year project for our three-year diploma. This project showcases the skills and knowledge we've acquired throughout our academic journey.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.5.
 
-## 🚀 Project Purpose
+## Development server
 
-The main aim of KB_Solution is to demonstrate and apply everything we've learned over the past three years. It allows users to effortlessly build their online presence, create portfolios, and showcase their best work to the world.
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## 🛠️ Technologies Used
+## Code scaffolding
 
-- **Frontend:** HTML, CSS, JavaScript, Angular, TypeScript
-- **Backend/Hosting/Database:** Firebase (Firebase Hosting, Firebase Database)
-- **Deployment:** firebase.json
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## 💻 Installation & Running the Project
+## Build
 
-To run KB_Solution locally:
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-1. **Prerequisites:**
-   - Install [Node.js](https://nodejs.org/)
-   - Install Angular CLI:  
-     ```bash
-     npm install -g @angular/cli
-     ```
-   - Have a [Firebase account](https://firebase.google.com/)
+## Running unit tests
 
-2. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/Bhaveshpooniwala1/KB_Solution.git
-   cd KB_Solution
-   ```
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-3. **Install Dependencies:**
-   ```bash
-   npm install
-   ```
+## Running end-to-end tests
 
-4. **Configure Firebase:**
-   - Use your own Firebase account.
-   - Log in with your Gmail.
-   - In the code, update the Firebase config section in `app.module.ts` with your Firebase project credentials.
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-5. **Run the Project:**
-   ```bash
-   ng serve
-   ```
-   - Visit `http://localhost:4200` in your browser.
+## Further help
 
-## 🖼️ Screenshots
-
-Here's a preview of our homepage:
-
-![image1](image1)
-
-## 🙏 Special Thanks
-
-Special thanks to my friend **Kanishk Navlakhe**, who designed the stunning web page layout and made it look so good!
-
-## 📢 Credits
-
-- Developed as a final year project for diploma completion.
-- Contributors: Bhaveshpooniwala1, Kanishk Navlakhe
-
----
-
-Let’s bring your ideas to life, one click at a time!
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
